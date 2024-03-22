@@ -17,7 +17,7 @@ halt:
     cli
     hlt 
 hello:
-    db "Itzz, working",0
+    db "Itzz, working..:::",0
 
 times 510-($-$$) db 0
 dw 0xaa55
